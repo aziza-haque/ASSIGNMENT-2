@@ -39,11 +39,11 @@ nav ul{
 .banner-info h1{
     font-size: 30px;
 }
-.banner-info p{
-    font-size: 10px;
+ p{
+    font-size: 12px;
     color: #727272;
 }
-.banner button{
+ button{
     background: #FF900E;
     padding: 10px;
     border: 0;
@@ -55,4 +55,100 @@ nav ul{
     padding-left: 45px;
     padding-bottom: 15px;
     
+}
+/* -------part 2------*/
+.features{
+    display:flex;
+    gap:30px;
+    margin-top:30px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    grid-row-gap:10px;
+    grid-column-gap:10px;
+    padding-top:30px;
+    padding-left: 75px;
+    padding-bottom: 50px;
+
+}
+.quicklist{
+    padding-top:300px;
+}
+/* -------part 3------*/
+.love-enjoy{
+display: flex;
+gap:54px;
+padding-left: 200px;
+}
+.love-enjoy img{
+    width: 500px;
+}
+.boxs{
+    display: grid;
+    gap: 20px;
+
+}
+#box1{
+    border-left: 5px solid #FF900E;
+}
+.box{
+    box-shadow: 2px 2px 2px 2px rgb(233, 235, 232);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+/* -------part 4------*/
+.somefacts{
+   padding-left: 210px;
+   padding-top: 30px;
+}
+.facts{
+    display: flex;
+    gap:120px;
+    text-align: center;
+    padding-left: 175px;
+}
+.fact{
+    border: 1px solid #FF900E;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom:15px ;
+    padding-right:15px ;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+.facts img{
+    width:30px;
+}
+
+/* -------part 5------*/
+.sponser{
+    text-align: center;
+    padding-top: 50px;
+}
+.icons img{
+    width: 90px;
+}
+.icons{
+    display: grid;
+   grid-template-columns: repeat(5,1fr);
+   padding-top: 50px;
+   padding-bottom: 50px;
+    
+}
+footer{
+    margin-left: 240px;
+    margin-right: 240px;
+    width: 750px;
+    height: 50px;
+    background-color:#FFF4E7;
+    text-align: center;
+    margin-bottom: 130px;
 }
